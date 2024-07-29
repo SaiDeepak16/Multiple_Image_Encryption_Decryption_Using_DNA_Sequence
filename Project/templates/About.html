@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='About.css') }}">
+    <title>About Us</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-title">
+            <h2>
+                <a href="/"><img src="../static/Logo.png" alt="Logo"></a>
+            </h2>
+        </div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/main">Encrypt</a>
+            <a class="active" href="/about">About</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/algo">Algorithm</a>
+            <a href="/">Contact</a>
+        </div>
+    </nav>
+
+    <main class="about-section">
+        <div class="main-info">
+            <h2>About The Project</h2>
+            <p>This Project is based on Digital Image Encryption using chaotic functions and DNA
+                Encoding. Since Digital Image Processing is vast field, we explored many topics, techniques to
+                modify given images. From basics of Image to Image Encryption Algorithm, we explored Many things. We
+                created Algorithm section such that anyone can learn this technique and to apply them we created Encrypt
+                section.
+            </p>
+        </div>
+    </main>
+    <hr width="60%">
+
+    <!-- Team Info -->
+
+    <div class="team-heading">
+        <h2>About Us</h2>
+    </div>
+
+    <div class="card-container">
+        <!-- Student 1 -->
+        <div class="card">
+            <img src="../static/Personal/saideepak.png" alt="Student 1">
+            <div class="card-content">
+                <div class="student-name">Depally SaiDeepak Goud</div>
+                <div class="roll-no">Lead Programmer</div>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/sai-deepak-depally-664b77258" target="_blank">in</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="footer">
+        <p class="rights">All Rights Reserved &copy; 2023 SaiDeepak Depally</p>
+    </div>
+
+</body>
+
+</html>
